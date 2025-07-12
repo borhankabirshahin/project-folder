@@ -1,0 +1,52 @@
+/* Font and reset */
+.font {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  min-height: 100vh;
+  background-image: linear-gradient(#eef2f3, #d7ecf5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header background */
+.header {
+  background-image: url('image/Hero-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Navbar */
+.navbar {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  color: #4E47FF;
+  font-size: 34px;
+  font-weight: 900;
+}
+
+.btn {
+  color: #FFFFFF;
+  background-color: #4E47FF;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #110cb1;
+}
