@@ -80,3 +80,54 @@
 .banner-btn:hover {
   background-color: #110cb1;
 }
+
+/* action section */
+
+.main {
+  margin: 100px 0px;
+}
+
+.action {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.action-container {
+  width: 45.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-text h2 {
+  color: #252432;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.action-text p {
+  color: #252432;
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+.action-btn {
+  color: #FFFFFF;
+  background-color: #4E47FF;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 46px;
+  border: none;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.action-btn:hover {
+  background-color: #110cb1;
+}
+
+.action-image img {
+  border-radius: 48px;
+}
